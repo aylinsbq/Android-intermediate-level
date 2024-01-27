@@ -3,8 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.horoscope.HoroscopeFragment"
-    android:background="@color/primary">
+    android:background="@color/primary"
+    tools:context=".ui.horoscope.HoroscopeFragment">
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHoroscope"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"/>
 </FrameLayout>

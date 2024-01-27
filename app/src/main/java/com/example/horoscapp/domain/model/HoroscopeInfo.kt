@@ -1,9 +1,8 @@
 package com.example.horoscapp.domain.model
 
 import com.example.horoscapp.R
-import com.example.horoscapp.ui.horoscope.HoroscopeViewModel
 
-sealed class HoroscopeInfo(val name:Int, val img:Int) {
+sealed class HoroscopeInfo(val img:Int,val name:Int) {
     data object Aries:HoroscopeInfo(R.drawable.aries, R.string.aries)
     data object Taurus: HoroscopeInfo(R.drawable.tauro, R.string.taurus)
     data object Gemini: HoroscopeInfo(R.drawable.geminis, R.string.gemini)
