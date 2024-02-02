@@ -1,8 +1,10 @@
 package com.example.horoscapp.domain.model
 
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 import com.example.horoscapp.R
 
-sealed class HoroscopeInfo(val img:Int,val name:Int) {
+sealed class HoroscopeInfo(@DrawableRes val img:Int,@StringRes val name:Int) {
     data object Aries:HoroscopeInfo(R.drawable.aries, R.string.aries)
     data object Taurus: HoroscopeInfo(R.drawable.tauro, R.string.taurus)
     data object Gemini: HoroscopeInfo(R.drawable.geminis, R.string.gemini)
