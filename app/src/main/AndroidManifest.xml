@@ -20,7 +20,7 @@
         android:theme="@style/Theme.HoroscApp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.detail.HoscopeDetailActivity"
+            android:name=".ui.detail.HoroscopeDetailActivity"
             android:exported="false" />
         <activity
             android:name=".ui.home.MainActivity"

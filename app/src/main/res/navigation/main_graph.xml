@@ -26,7 +26,7 @@
         tools:layout="@layout/fragment_palmistry" />
     <activity
         android:id="@+id/hoscopeDetailActivity"
-        android:name="com.example.horoscapp.ui.detail.HoscopeDetailActivity"
+        android:name="com.example.horoscapp.ui.detail.HoroscopeDetailActivity"
         android:label="activity_hoscope_detail"
         tools:layout="@layout/activity_hoscope_detail" >
         <argument
